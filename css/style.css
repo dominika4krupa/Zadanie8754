@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/* helpers */
+
+.green {
+    color: limegreen;
+    font-weight: normal;
+}
+
+
+section {
+    padding: 30px 50px;
+}
+
+.social-icons {
+    margin-top: 40px;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: #FFF;
+    line-height: 40px;
+    border: 1px solid #FFF;
+    margin-right: 10px;
+    transition: all 0.4s;
+}
+
+.social-icons a:hover {
+    background-color: #FFF;
+    color: #213b50;
+}
+
+button, #btn {
+    display: none;
+    height: 30px;
+    border: 0;
+    
+    
+}
+
+/*nav*/
+
+#main-nav {
+    background-color: #fff;
+   
+}
+#navbarNav button {
+    display: flex;
+    align-content: center;
+}
+
+
+.nav-item a {
+    color: limegreen;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-item a:hover {
+    color: #222;
+}
+
+.navbar-nav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*header*/
+
+#main-header {
+    height: 100vh;
+    background: url('../img/header-background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#main-header .header-inner h1,
+#main-header .header-inner h2 {
+    color: #fff;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main-header .header-inner h1 {
+    font-size: 70px;
+}
+
+#main-header .header-inner h2 {
+    font-size: 40px;
+}
+
+
+/*about*/
+
+#about {
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+#about figure img {
+    width: 50%;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about p {
+    text-align: left;
+}
+
+/*skills*/
+
+
+#skills figure {
+    display: flex;
+    flex-direction: column;
+    margin:0 20px;
+   
+}
+
+#figures {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+ 
+/*portfolio*/
+
+#portfolio .portfolio-inner {
+    height: 350px;
+    width: 33%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#img1, #img2, #img3 {
+    padding: 0;  
+}
+
+#portfolio .portfolio-inner.img-1 {
+    background-image: url('../img/portfolio1.jpg');
+     width: 100%;
+}
+
+#portfolio .portfolio-inner.img-2 {
+    background-image: url('../img/portfolio2.jpg');
+     width: 100%;
+}
+
+#portfolio .portfolio-inner.img-3 {
+    background-image: url('../img/portfolio3.jpg');
+     width: 100%;
+}
+
+#portfolio .portfolio-inner .mask {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+#portfolio .portfolio-inner:hover .mask {
+    opacity: 1;
+}
+
+#portfolio .portfolio-inner .mask .border {
+    border: 1px solid #FFF;
+    height: 100%;
+    position: relative;
+}
+
+#portfolio .portfolio-inner .mask .border .content {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+/*contact*/
+
+#contact {
+    background-color: #213b50;
+    color: #FFF;
+}
+
+#contact address a {
+    color: limegreen;
+    text-decoration: underline;
+}
+
+#contact form {
+    display: flex;
+    align-items:  flex-end;
+    flex-direction: column;
+}
+
+#contact form input:not([type="submit"]),
+#contact form textarea {
+    width: 100%;
+    background-color: #2b4a64;
+    border: 1px solid #2b4a64;
+    margin-bottom: 20px;
+    height: 40px;
+    padding: 5px;
+}
+
+#contact form input[type="submit"] {
+    width: 20%;
+    background-color: limegreen;
+    color: #FFF;
+    border: 0;
+    line-height: 40px;
+   
+}
+
+/* footer */
+
+#footer {
+    background-color: #142634;
+    color: #FFF;
+    padding: 0 50px;
+}
+
+#footer p {
+    margin: 0;
+}

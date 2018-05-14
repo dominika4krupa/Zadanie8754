@@ -1,0 +1,59 @@
+@media all and (max-width: 992px) {
+
+    .navbar-header {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    button,
+    #btn {
+        display: block;
+        background-color: #fff;
+
+    }
+
+    button:focus {
+        outline: none;
+
+    }
+
+    .social-icons {
+        margin-bottom: 20px;
+    }
+
+    #about figure,
+    #about p {
+        width: 100%;
+    }
+
+    #about figure img {
+        width: 100%;
+    }
+    #cont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        text-align: center;
+    }
+
+}
+
+
+@media all and (max-width: 576px) {
+
+    #main-header .header-inner h1 {
+        font-size: 50px;
+    }
+
+    #main-header .header-inner h2 {
+        font-size: 30px;
+    }
+    #figures {
+        display: block;
+
+    }
+
+}
