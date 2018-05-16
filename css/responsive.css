@@ -38,6 +38,11 @@
         flex-wrap: nowrap;
         text-align: center;
     }
+    
+    #img3 {
+        margin-left: 25%;
+        
+    }
 
 }
 

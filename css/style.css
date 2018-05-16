@@ -217,6 +217,9 @@ figure {
     align-items:  flex-end;
     flex-direction: column;
 }
+#cont {
+    padding: 0;
+}
 
 #contact form input:not([type="submit"]),
 #contact form textarea {
