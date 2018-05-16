@@ -38,10 +38,17 @@
         flex-wrap: nowrap;
         text-align: center;
     }
-    
+
     #img3 {
         margin-left: 25%;
-        
+
+    }
+
+}
+
+@media all and (max-width: 768px) {
+    #img3 {
+        margin-left: 0;
     }
 
 }
@@ -58,6 +65,11 @@
     }
     #figures {
         display: block;
+
+    }
+
+    #img3 {
+        margin-left: 0;
 
     }
 
